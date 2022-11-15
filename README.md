@@ -1,7 +1,7 @@
-- NOM : 
-- PRÉNOM :
+- NOM : SCHOELLHAMMER
+- PRÉNOM : Zoé
 - URL du site :
-- URL FIGMA :
+- URL FIGMA : 
 
 # Structure de départ pour le projet individuel.
 
