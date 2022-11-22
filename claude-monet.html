@@ -62,6 +62,7 @@
         <section>
             <h2>Musée de l'Orangerie et autres lieux</h2>
             <img src="assets/icones/Line 13.svg">
+            <div class="accordéon" x-data="{open:1}">
                 <div>
                     
                        <button @click="open = 1">1792 Le Louvre</button>
@@ -82,7 +83,7 @@
 
                 <div>
                     
-                       <button @click="open = 3">1792 Le Louvre</button>
+                       <button @click="open = 3">1892 Palais des Beaux Arts</button>
                        <figure x-show="open == 3" x-transition.scale.origin.top>
                             <img src="assets/img/lille.webp" alt="musée des Beaux Arts Lille">
                             <figcaption>1892, au nord de la France, Lille ouvre les portes du palais des beaux arts. Sur les 12 000 m2 d’exposition, Eugène Delacroix, Théodore Géricault et bien d’autres prêtent leurs toiles.
@@ -91,7 +92,7 @@
                 </div>
 
                 <div>
-                       <button @click="open = 4">1792 Le Louvre</button>
+                       <button @click="open = 4">2001 Musée de la Piscine</button>
                        <figure x-show="open == 4" x-transition.scale.origin.top>
                             <img src="assets/img/piscine.webp" alt="musée de la Piscine">
                             <figcaption>La forme atypique du musée au dessus de l’eau fait tout le patrimoine culturel de Roubaix. Présentant une majorité de sculptures mais aussi des créations décoratives. Ancienne piscine municipale de la ville, elle est transformée en musée en 2001.</figcaption>
@@ -100,12 +101,13 @@
 
                 <div>
                     
-                       <button @click="open = 5">1792 Le Louvre</button>
+                       <button @click="open = 5">2006 Centre Pompidou</button>
                        <figure x-show="open == 5" x-transition.scale.origin.top>
                             <img src="assets/img/pompidou.webp" alt="centre Pompidou">
                             <figcaption>Musée national d’art à Paris, le Centre Pompidou présente des oeuvres d’art plus contemporaines que le musée du Louvre. Au même titre que le musée de l’Orangerie, il présente lui aussi des expositions temporaires.</figcaption>
                         </figure>
                 </div>
+            </div>
 
         </section>
 
