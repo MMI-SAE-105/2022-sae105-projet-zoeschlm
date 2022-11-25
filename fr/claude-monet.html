@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Claude Monet</title>
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+</head>
+<body>
+
+    <header>
+        <a href="/">
+            <img src="assets/icones/Logo R.svg" alt="Logo Reminiscence">
+        </a>
+        <button>
+            <img src="assets/icones/menu 1.svg" alt="Menu">
+        </button>
+        <button>
+            <img src="assets/icones/united-kingdom 1.svg" alt="Langue anglais">
+        </button>
+
+        <nav>
+            <ul>
+                <li> <a href="mac_Miller.html"> Come Back to Earth, le morceau emblématique de Mac Miller</a></li>
+                <li> <a href="wes_anderson.html"> Wes Anderson, peintre contemporain du cinéma</a></li>
+                <li> <a href="catherine_meurisse.html"> La jeune Femme et la Mer ou la ressource d'inspiration</a></li>
+                <li> <a href="claude_monet.html"> Voyage entre les pièces de l'Orangerie de Paris</a></li>
+                <li> <a href="technologie.html"> La technologie n'est elle pas finalement nocive aux pratiques artistiques</a></li>
+                <li> <a href="reconnaisance.html">Une meilleure reconnaissance des créateurs de contenu artistique</a></li>
+                <li> <a href="contact.html"> Contact</a></li>
+                <li> <a href="a_propos.html"> À propos</a></li>
+                <li> <a href="autres_projets.html"> Autres projets</a></li>
+                <li> <a href="glossaire.html"> Glossaire</a></li>
+            </ul>
+        </nav>
+        <h4>
+            Réminiscence
+        </h4>
+    </header>
+
+    <main>
+        <h1>Voyage entre les pièces de l'Orangerie de Paris</h1>
+        <p>
+            Qui n’a jamais rêvé de voyager dans l’imaginaire? Le musée National de L’Orangerie des Tuileries à Paris propose de mêler architecture et art dans un cadre plus restreint que le musée du Louvre.
+        </p>
+
+        <div>
+            <img src="assets/img/orangerie.webp" alt="Orangerie de Paris"></img>
+            <h2>Claude Monet, égérie du musée</h2>
+            <p>
+                Plus connu pour sa grande exposition de Monet dans cette fameuse pièce circulaire, le musée de l’Orangerie attire de plus en plus de visiteurs. Impressionnisme, post impressionnisme, sculpture, spectacle, la polyvalence du musée ne cesse d’attirer les âmes curieuses. Salle emblématique du monument, la salle ovale dédiée aux œuvres de Claude Monet. Quelques jours après sa mort, il fait cadeau de 8 panneaux impressionnistes, tous disposés dans cette salle circulaire. Cette exposition, la seule qui ne soit pas temporaire est disposée dans cette impressionnante pièce en fonction des rayons du soleil de Paris. D’ailleurs de son autre nom, le « musée Claude Monet » est inauguré en 1927 et rend ainsi possible l’accès au public. 
+            </p>
+        </div>
+
+        <h2>Lieu de culture et d'histoire</h2>
+        <p>
+            L’architecture du musée donne l’impression de plonger dans une aventure. Avec des couloirs clos menant de salles en salles. Autrefois une orangerie en 1852, il a rendu d’autres services pour les décennies suivantes. En effet, de simple lieu de conservation des orangers commandé par Napoléon au 19e siècle à un lieu d’exposition des artistes vivant, beaucoup de modifications architecturales y sont comptés. Si les expositions actuelles touchent les artistes des années 30, elles sont plutôt axées impressionnisme. Mais on retrouve aussi des représentations événementielles telles que des spectacles de danse. Malgré sa petite capacité à contenir des œuvres et tenir des expositions, les artistes aiment s’y représenter. 
+        </p>  
+
+
+        <section>
+            <h2>Musée de l'Orangerie et autres lieux</h2>
+            <img src="assets/icones/Line 13.svg">
+            <div class="accordéon" x-data="{open:1}">
+                <div>
+                    
+                       <button @click="open = 1">1792 Le Louvre</button>
+                       <figure x-show="open == 1" x-transition.scale.origin.top>
+                            <img src="assets/img/Louvre.webp" alt="musée du Louvre">
+                            <figcaption>Évidemment, notre célèbre musée du Louvre n’est pas si vieux que ça. 1792, à sa date de création il devient déja le bâtiment emnlématique de Paris. Nombreux sont les touristes des quatre coins du monde qui souhaitent voir la célèbre Joconde, par DaVinci  </figcaption>
+                        </figure>
+                </div>
+
+                <div>
+                    
+                       <button @click="open = 2">1840 musée Goya</button>
+                       <figure x-show="open == 2" x-transition.scale.origin.top>
+                            <img src="assets/img/Goya.webp" alt="musée Goya">
+                            <figcaption>C’est en 1840 que le musée Goya, à Castres ouvre ses portes. À l’interieur de celui, les peintures et oeuves d’art espagnoles se mèlent à l’achitecture française de la région d’Occitanie.</figcaption>
+                        </figure>
+                </div>
+
+                <div>
+                    
+                       <button @click="open = 3">1892 Palais des Beaux Arts</button>
+                       <figure x-show="open == 3" x-transition.scale.origin.top>
+                            <img src="assets/img/lille.webp" alt="musée des Beaux Arts Lille">
+                            <figcaption>1892, au nord de la France, Lille ouvre les portes du palais des beaux arts. Sur les 12 000 m2 d’exposition, Eugène Delacroix, Théodore Géricault et bien d’autres prêtent leurs toiles.
+                            </figcaption>
+                        </figure>
+                </div>
+
+                <div>
+                       <button @click="open = 4">2001 Musée de la Piscine</button>
+                       <figure x-show="open == 4" x-transition.scale.origin.top>
+                            <img src="assets/img/piscine.webp" alt="musée de la Piscine">
+                            <figcaption>La forme atypique du musée au dessus de l’eau fait tout le patrimoine culturel de Roubaix. Présentant une majorité de sculptures mais aussi des créations décoratives. Ancienne piscine municipale de la ville, elle est transformée en musée en 2001.</figcaption>
+                        </figure>
+                </div>
+
+                <div>
+                    
+                       <button @click="open = 5">2006 Centre Pompidou</button>
+                       <figure x-show="open == 5" x-transition.scale.origin.top>
+                            <img src="assets/img/pompidou.webp" alt="centre Pompidou">
+                            <figcaption>Musée national d’art à Paris, le Centre Pompidou présente des oeuvres d’art plus contemporaines que le musée du Louvre. Au même titre que le musée de l’Orangerie, il présente lui aussi des expositions temporaires.</figcaption>
+                        </figure>
+                </div>
+            </div>
+
+        </section>
+
+
+
+
+        <h2>Expositions et culture des arts</h2>
+        <p>
+            Claude Monet prête ses Nymphéas au musée de l’Orangerie et du 5 octobre 2022 au 23 février 2023, il est aussi possible de voir d’autres œuvres. Certaines d’artistes ayant été inspirés par le “mouvement de Claude Monet”.
+            Cette année la fondation Louis Vuitton à Paris propose une exposition des peintures de Joan Mitchell, expressionniste ayant fortement étudié les ouvres de Monet, son référent. Plusieurs expositions se tiennent pour l’année 2023. Toutes aussi intéressantes les unes que les autres, on en trouve partout. Vous retrouverez une bonne sélection dans le magazine Beaux-Arts, édition septembre 2022. On en note d’ailleurs quelques-unes qui valent le coup d’œil. 
+        </p>
+
+
+    </main>
+    
+    <footer>
+        <a href="/">
+            <img src="assets/icones/Logosansfonf.svg" alt="Logo Reminiscence">
+                <p>Réminiscence</p>
+        </a>
+        <p>Projet réalisé dans le cadre d’un exercice pédagogique au département <a href="http://mmimontbeliard.com/"> MMi de Montbéliard. </a> </p>
+        <ul>
+            <h3>Contact</h3>
+            <li>4 place Tharradin</li>
+            <li>25200 Montbéliard</li>
+            <li>03 81 99 47 34 </li>
+            <li>dut-mmi-montbeliard@univ-fcomte.fr</li>
+        </ul>
+        <h3>Nous suivre</h3>
+    
+        <a href="https://www.instagram.com/mmi_montbeliard/?hl=fr"> 
+                <img src="assets/icones/instagram 1.svg" alt="logo instagram">
+        </a>
+    
+             <a href="https://fr.linkedin.com/school/mmimontbeliard/">
+                <img src="assets/icones/linkedin 1.svg" alt="Logo LinkedIn">
+            </a>
+    
+                <a href="http://mmimontbeliard.com/">
+                      <img src="assets/icones/MMI.svg" alt="logo MMI">
+                    </a>
+    
+       <a href="contact.html">Contact | </a> <a href="a_propos.html">À propos</a>
+    <p>Zoé Schoellhammer MMI1 C2</p>
+    </footer>
+
+
+</body>
+</html>
