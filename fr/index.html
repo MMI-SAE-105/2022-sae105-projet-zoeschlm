@@ -8,6 +8,28 @@
     <link rel="stylesheet" href="/src/style.css">
     <script defer src="https://unpkg.com/alpinejs"></script>
 
+    <style>
+        .menu {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: #E8CADA;
+            display: grid;
+            place-content: center;
+        }
+
+        .header__menu-btn {
+            position: relative;
+            z-index: 5;
+            top: 0;
+            right: 0;
+            left: 100;
+
+        }
+    </style>
+
 </head>
 <body class="body">
 
@@ -29,8 +51,9 @@
                 aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen">
                     <img src="../assets/icones/menu1.svg" alt="Menu">
                 </button>
-                <nav class="header__menu menu"
-                 id="mainNav" x-show="menuIsOpen">
+                <nav class="menu"
+                 id="mainNav" x-show="menuIsOpen"
+                 x-transition.duration.800ms>
                     <ul class="menu__list">
                         <li class="menu__item"> 
                             <a class="menu__link" href="mac-miller.html"> Come Back to Earth, le morceau emblématique de Mac Miller</a></li>
