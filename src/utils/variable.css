@@ -1,0 +1,18 @@
+:root {
+    /* Color styles */
+--couleur-de-fond: rgba(253, 251, 249, 1);
+--couleur-de-fond-2: rgba(244, 242, 235, 1);
+--couleur-secondaire: rgba(245, 224, 236, 1);
+--couleur-de-fond-2: rgba(220, 141, 179, 1);
+--texte: rgba(0, 0, 0, 1);
+
+/* Text-size styles */
+--base-line: 26px;
+--heading-2: 25px;
+--body: 15px;
+--heading-1: 35px;
+--body2: 20px;
+--small-text: 12px;
+--titre-du-site-accueil: 55px;
+--titre-du-site-header: 17px;
+}
