@@ -1,2 +1,4 @@
 @import url('components/menu.css');
 
+/*variable*/
+@import url('utils/variables.css');

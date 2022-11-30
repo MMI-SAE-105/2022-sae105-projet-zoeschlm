@@ -1,0 +1,25 @@
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #E8CADA;
+    display: grid;
+    place-content: center;
+}
+
+.header__menu-btn {
+    position: relative;
+    z-index: 5;
+    top: 0;
+    right: 0;
+    left: 100;
+
+}
+
+.menu__list {
+    place-content: center;
+    font-size: 20px;
+
+}
