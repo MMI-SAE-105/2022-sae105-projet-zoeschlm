@@ -1,0 +1,15 @@
+.header {
+    
+        display: flex;
+        justify-content: space-between;
+     }
+
+.header__start {
+    margin-left: 0.5cm;
+    margin-top: 0.5cm;
+}
+
+.header__end {
+    margin-top: 0.5cm;
+    margin-right: 0.5cm;
+}

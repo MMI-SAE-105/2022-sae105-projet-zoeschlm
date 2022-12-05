@@ -1,0 +1,47 @@
+.tag_line {
+    display: flex;
+    font-family: 'Reenie Beanie';
+    font-size: 26px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20%; 
+}
+
+.intro__titre {
+    display: flex;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 55px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+    color: #4A3F3F;
+}
+
+.intro__img {
+    display: block;
+    position: relative;
+    margin: auto;
+    width: 314px;
+    height: 469px;
+    justify-content: center;
+    border-radius: 7%;
+}
+
+.intro__texte {
+    display: flex;
+    font-family:'Lato', sans-serif;
+    font-size: 15px;
+   margin-top: 20%;
+}
+
+article{
+    justify-content: center;
+}
+
+.article__titre {
+    font-family: 'Lato', sans-serif;
+    
+}
+
