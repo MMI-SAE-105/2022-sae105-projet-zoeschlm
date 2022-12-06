@@ -1,3 +1,8 @@
 body{
     background: #edebe7;
 }
+
+.noScroll,
+.noScroll body {
+    overflow: hidden;
+}
