@@ -1,0 +1,33 @@
+.block1_footer {
+    background:#e7e5dc;
+    margin: auto;
+    display:flex;
+    margin-top: 30%;
+
+}
+
+
+.block1_footer__logo {
+    margin-left: 5%;
+    margin-top: 30%;
+}
+
+.block1_footer__titre {
+    font-family:'Lato', sans-serif; 
+    font-size: 15px;
+    margin-left: 5%;
+    
+}
+
+.block2_footer {
+    background:#e7e5dc;
+    margin-top: 0%;
+}
+
+.block2_footer__texte {
+    font-family:'Lato', sans-serif ;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
