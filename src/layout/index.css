@@ -95,7 +95,7 @@
 }
 
 .article__lire {
-background : #F5E0EC;
+    background : #F5E0EC;
     color: black;
     align-items: center;
     text-align: center;
@@ -105,5 +105,5 @@ background : #F5E0EC;
     height: 48px;
     border-radius: 27px;
     vertical-align: middle;
-    }
+}
 

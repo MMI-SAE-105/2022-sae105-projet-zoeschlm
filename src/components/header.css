@@ -7,16 +7,20 @@
 .header__start {
     margin-left: 0.5cm;
     margin-top: 0.5cm;
+    z-index: 10;
 }
 
 .header__end {
     margin-top: 0.5cm;
     margin-right: 0.5cm;
+
 }
 
 .header__icon {
     width: 25px;
     height: 25px;
 }
+
+
 
 
