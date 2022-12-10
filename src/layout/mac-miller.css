@@ -1,0 +1,22 @@
+.titre-article {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 35px;
+    margin-left: 4%;
+    margin-top: 20%;
+}
+
+.citation {
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 26px;
+    line-height: 100%;
+    margin-top: 20%;
+    margin-left: 10%;
+}
+
+.art__image-gauche {
+    max-width: 100%;
+    width:138px;
+    height: 864px;
+    margin-top: 35%;
+    margin-left: 0%;
+}
