@@ -1,34 +1,12 @@
 <!DOCTYPE html>
-<html lang="fr" x-data="{menuIsOpen: false}">
+<html lang="fr" x-data="{menuIsOpen:false}" :class="menuIsOpen && 'noScroll'">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>À propos</title>
+    <title>Reminiscence</title>
     <link rel="stylesheet" href="/src/style.css">
     <script defer src="https://unpkg.com/alpinejs"></script>
-
-    <style>
-        .menu {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100vw;
-            height: 100vh;
-            background: #E8CADA;
-            display: grid;
-            place-content: center;
-        }
-
-        .header__menu-btn {
-            position: relative;
-            z-index: 5;
-            top: 0;
-            right: 0;
-            left: 100;
-
-        }
-    </style>
 
 </head>
 <body class="body">
@@ -43,18 +21,18 @@
 
         <div class="header__end">
                 <button class="header__menu-btn menu-btn">
-                    <img src="../assets/icones/united-kingdom1.svg" alt="Langue anglais">
+                    <img class="header__icon" src="../assets/icones/united-kingdom1.svg" alt="Langue anglais">
                     <span></span>
                 </button>
 
                 <button class="header__menu-btn menu-btn" 
-                aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen">
-                    <img src="../assets/icones/menu1.svg" alt="Menu">
+                aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" :class="menuIsOpen && 'active'">
+                    <img class="header__icon" src="../assets/icones/menu1.svg" alt="Menu">
                 </button>
                 <nav class="menu"
                  id="mainNav" x-show="menuIsOpen"
                  x-transition.duration.800ms>
-                    <ul class="menu__list">
+                    <ul style="list-style-type:none;" class="menu__list">
                         <li class="menu__item"> 
                             <a class="menu__link" href="mac-miller.html"> Come Back to Earth, le morceau emblématique de Mac Miller</a></li>
                         <li class="menu__item"> 
@@ -98,21 +76,23 @@
         </main>
 
         <footer class="footer">
+            <div class="footer__base">
             <div class="block1_footer">
                 <a href="index.html">
-                    <img class="block1_footer__logo" src="../assets/icones/Logosansfonf.svg" alt="Logo Reminiscence">
+                    <img class="block1_footer__logo" src="../assets/icones/logo-fond.svg" alt="Logo Reminiscence">
                 </a>
                 <p class="block1_footer__titre">Réminiscence</p>
-                <p class="block1_footer__texte">Projet réalisé dans le cadre d’un exercice pédagogique au département <a href="http://mmimontbeliard.com/"> MMI de Montbéliard. </a> </p>
+               
                 </div>
     
             <div class="block2_footer">
+                <p class="block2_footer__texte">Projet réalisé dans le cadre d’un exercice pédagogique au département <a href="http://mmimontbeliard.com/"> MMI de Montbéliard. </a> </p>
                 <h3 class="block2_footer__titre">Contact</h3>
                 <p class="block2_footer__contact">
-                    4 place Tharradin<br>
-                    25200 Montbéliard<br>
-                    03 81 99 47 34 <br>
-                    dut-mmi-montbeliard@univ-fcomte.fr
+                    <p class="block2_footer__contact">4 place Tharradin</p>
+                    <p  class="block2_footer__contact">25200 Montbéliard</p>
+                    <p  class="block2_footer__contact">03 81 99 47 34</p> 
+                    <p  class="block2_footer__contact">dut-mmi-montbeliard@univ-fcomte.fr</p>
                 </p>
                 
                 <h3 class="block2_footer__titre">Nous suivre</h3>
@@ -130,9 +110,10 @@
                 </a>
             </div>
     <div class="footer_end">
-            <a class="footer_end__link" href="contact.html">Contact | </a> <a class="footer_end__link" href="a_propos.html">À propos</a>
+            <a class="footer_end__link" href="contact.html">Contact</a> <a class="footer_end__link" href="a-propos.html">À propos</a>
             <p class="footer_end__nom">Zoé SCHOELLHAMMER MMI1 C2</p>
     </div>
+            </div>
         </footer>
     </body>
 </html>
