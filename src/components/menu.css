@@ -11,6 +11,7 @@
 }
 
 .header__menu-btn {
+    
     position: relative;
     z-index: 5;
     top: 0;
@@ -19,7 +20,6 @@
     width: 40px;
     height: 40px;
     cursor: pointer;
-    background: none;
     border: none;
     appearance: none;
     outline: none;
@@ -35,16 +35,18 @@
 
 
 .menu-btn {
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 33px;
     cursor: pointer;
-    background: none;
+    background: #E8CADA;
+    border-radius: 100px;
     border: none;
     appearance: none;
     outline: none;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 15%;
     
   }
 
