@@ -1,0 +1,56 @@
+.scene__img {
+    max-width: 100%;
+    width: 308px;
+    height: 205px;
+    margin-top: 20%;
+
+}
+
+.art__image-wes {
+    max-width: 100%;
+    width:238px;
+    height: 1064px;
+    margin-top: 62%;
+    margin-left: 40%;
+    position:relative;
+    z-index: -1;
+    
+}
+
+.galerie1 {
+    display:flex;
+    justify-content: space-between;
+padding: 40px;
+    
+}
+
+.galerie2 {
+    display:flex;
+    justify-content: space-between;
+padding: 40px;
+}
+
+.galerie__grd {
+    width:150px;
+    height:350px;
+    border-radius:10cm ;
+}
+
+.galerie {
+    width:150px;
+    height:204px;
+    border-radius: 10cm;
+}
+
+.galerie__link {
+    font-size: 12px;
+    color: black;
+    font-family: 'Lato', sans-serif;
+}
+
+.galerie__cap {
+    font-size: 15;
+    font-family: 'Lato', sans-serif;
+    line-height: 2;
+    text-align: center;
+}

@@ -13,7 +13,7 @@
     margin-left: 10%;
 }
 
-.art__rectangle-gauche {
+.art__rectangle-droit {
     background: #DC8DB3;
     border-radius: 0.3cm;
     width:290px;
@@ -26,7 +26,7 @@
 }
 
 
-.art__rectangle-droit {
+.art__rectangle-gauche {
     background: #DC8DB3;
     border-radius: 0.3cm;
     width:290px;
@@ -36,25 +36,12 @@
     padding-top: 8%;
     position:absolute;
     top: 88%;
+    
 }
 
-.art__image-gauche {
-    max-width: 100%;
-    width:138px;
-    height: 864px;
-    margin-top: 35%;
-    left:0;
-    position:relative;
-}
 
-.art__image-droit {
-    max-width: 100%;
-    width:138px;
-    height: 864px;
-    margin-top: 35%;
-    margin-left: 70%;
-    position:relative;
-}
+
+
 
 .texte {
     font-family: 'Lato', sans-serif;
