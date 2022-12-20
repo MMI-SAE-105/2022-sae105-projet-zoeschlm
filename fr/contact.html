@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reminiscence</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="/src/style.css">
     <script defer src="https://unpkg.com/alpinejs"></script>
 
@@ -14,7 +14,7 @@
 
     <header class="header">
         <div class="header__start">
-            <a href="/">
+            <a href="index.html">
                 <img class="header__logo" src="../assets/icones/LogoR.svg" alt="Logo Reminiscence">
             </a>
         </div>
@@ -58,54 +58,55 @@
         </div>
     </header>
 
-    <div>
-<h1>Contact</h1>
+    
+<h1 class="titre-article">Contact</h1>
+    <div class="liste-contact">
         <ul>
-            <li> <a href="https://www.google.com/search?q=4+place+Tharradin%2C+25200+Montb%C3%A9liard&rlz=1C1CHBD_frFR1023FR1023&oq=4+place+Tharradin%2C+25200+Montb%C3%A9liard&aqs=chrome..69i57.298j0j7&sourceid=chrome&ie=UTF-8">
-                    <img src="../assets/icones/home1.svg" alt="maison"></a> 
-                    <p> 4 place Tharradin, 25200 Montbéliard</p>
+            <li class="contact__item"> <a href="https://www.google.com/search?q=4+place+Tharradin%2C+25200+Montb%C3%A9liard&rlz=1C1CHBD_frFR1023FR1023&oq=4+place+Tharradin%2C+25200+Montb%C3%A9liard&aqs=chrome..69i57.298j0j7&sourceid=chrome&ie=UTF-8">
+                    <img class= "contact__icone" src="../assets/icones/home1.svg" alt="maison"></a> 
+                    <p class="contact__point"> 4 place Tharradin, 25200 Montbéliard</p>
             </li>
 
-            <li>
+            <li class="contact__item">
                 <a href="https://www.google.com/search?q=03+81+99+47+34&rlz=1C1CHBD_frFR1023FR1023&ei=AAJ1Y9jGG-ypkdUPkv6usAo&ved=0ahUKEwjYxq2ugrP7AhXsVKQEHRK_C6YQ4dUDCA8&uact=5&oq=03+81+99+47+34&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQA0oECEEYAEoECEYYAFAAWABg8gFoAHABeACAAQCIAQCSAQCYAQCgAQHAAQE&sclient=gws-wiz-serp#">
-                    <img src="../assets/icones/phone1.svg" alt="téléphone"></a> 
-                    <p> 03 81 99 47 34 </p>
+                    <img class="contact__icone" src="../assets/icones/phone1.svg" alt="téléphone"></a> 
+                    <p class="contact__point"> 03 81 99 47 34 </p>
             </li>
 
-            <li>
+            <li class="contact__item">
                 <a href="http://mmimontbeliard.com/contact">
-                    <img src="../assets/icones/mail1.svg" alt="mail"></a> 
-                    <p> dut-mmi-montbeliard@univ-fcomte.fr</p>
+                    <img class="contact__icone" src="../assets/icones/mail1.svg" alt="mail"></a> 
+                    <p class="contact__point"> dut-mmi-montbeliard@univ-fcomte.fr</p>
             </li>
         </ul>
     </div>
 
     
-        <h2>Restez toujours informés</h2>
+        <h2 class="titre-article">Restez toujours informés</h2>
 
 
-        <form action="#" method="get">
-            <div>
-                <label for="prenom">Prénom</label>
-                <input id="prenom" type="text">
+        <form class="formulaire" action="#" method="get">
+            <div class="formulaire__case">
+                <label class="sujet" for="prenom">Prénom</label>
+                <input class="case" id="prenom" type="text">
             </div>
 
-            <div>
-                <label for="nom">nom</label>
-                <input id="nom" type="text">
+            <div class="formulaire__case">
+                <label class="sujet" for="nom">Nom</label>
+                <input class="case" id="nom" type="text">
             </div>
 
-            <div>
-            <label for="mail">Adresse E-mail</label>
-            <input id="mail" type="text">
+            <div class="formulaire__case">
+            <label class="sujet" for="mail">Adresse E-mail</label>
+            <input class="case" id="mail" type="text">
             </div>
 
-            <div>
-                <label for="message">Qu'aimeriez vous voir sur notre site ?</label>
-                <textarea id="message"></textarea>
+            <div class="formulaire__case">
+                <label class="sujet" for="message">Qu'aimeriez vous voir sur notre site ?</label>
+                <textarea class="case case--texte" id="message"></textarea>
             </div>
 
-            <button type="submit"> Envoyer le formulaire 
+            <button class="btn btn--column" type="submit"> Envoyer le formulaire 
                 <img src="../assets/icones/arrow-right1.svg" alt="flèche droite">
             </button>
         </form>

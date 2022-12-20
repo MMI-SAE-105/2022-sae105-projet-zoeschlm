@@ -1,0 +1,45 @@
+.contact__item {
+    display: flex;
+    padding-top: 30px;
+}
+
+.contact__icone {
+    background: #E8CADA;
+    padding: 13px;
+    border-radius: 1cm;
+}
+.contact__point {
+    font-family: 'Lato', sans-serif;
+    padding-left: 15px;
+    justify-content: center;
+}
+
+.sujet{
+    font-family: 'Lato', sans-serif;
+    background: #DC8DB3;
+    padding:12px;
+    border-radius: 0.3cm;
+    display: flex;
+    gap:10px;
+
+}
+
+.formulaire__case {
+    padding:30px;
+    display: grid;
+
+}
+
+.case {
+    border-color:#DC8DB3;
+    border-radius: 0.3cm;
+    background: #f0ecdb;
+    padding: 18px;
+    font-size: 15px;
+
+}
+
+.case--texte {
+    padding: 50px;;
+}
+

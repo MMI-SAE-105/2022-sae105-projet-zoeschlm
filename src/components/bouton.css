@@ -4,6 +4,7 @@
     align-items: center;
     text-align: center;
     display: flex;
+    border: none;
     text-decoration: none;
     border-radius: 27px;
     vertical-align: middle;
@@ -17,4 +18,5 @@
 
 .btn--column {
     flex-direction: column-reverse;
+    border-radius: 70px;
 }

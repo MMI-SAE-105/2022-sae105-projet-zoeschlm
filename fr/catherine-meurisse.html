@@ -59,47 +59,68 @@
     </header>
     <main>
         
-        <h1>La Jeune Femme et la Mer, ou la source d’inspiration</h1>
+        <h1 class="titre-article">La Jeune Femme et la Mer, ou la source d’inspiration</h1>
 
-        <p>Que diriez vous d’une grande bouchée d’air frais pour retrouver votre imagination et ses bienfaits?
+        <p class="citation">Que diriez vous d’une grande bouffée d’air frais pour retrouver votre imagination et ses bienfaits?
             Catherine Meurisse nous emmène à travers son périple en quête d’inspiration.  </p>
-<div>
-        <img src="../assets/img/jeunefemmecouverture.webp" alt="Livre La Jeune Femme et la Mer">
-        <p>Pour les artistes le phénomène de « l’art block » n’est pas à prendre à la légère. En en faisant le sujet principal de son second roman graphique La Jeune Femme et la Mer, Catherine Meurisse tente de déculpabiliser les artistes de cette période de flou. 
-        </p>
-        <h2>LE PLAISIR DES YEUX AVANT TOUT
-        </h2>
+         <img class="art__image-cat1" src="../assets/img/jeunefemmecouverture.webp" alt="Livre La Jeune Femme et la Mer">
 
-        <p>Autrice de 42 ans, Catherine Meurisse publie La Jeune Femme et la Mer le 29 octobre 2021. Dans celui-ci, elle raconte son aventure en quête d’inspiration dans une résidence à Kyoto, au Japon. A travers ses illustrations, elle se met elle-même en scène accompagnée de jolis mots et métaphores qui nous explique le phénomène qui touche beaucoup d’artistes : le manque d’inspiration. Une BD aussi attirante dans son histoire que dans ses dessins. On remarque la combinaison d’aquarelles et crayons de couleurs. L’illustration de magnifiques paysages du Japon tels que les fleurs, la mer, les champs et les plaines ressort différente à chaque double page. L’illustratrice atteint une parfaite combinaison artistique qui donne envie de rentrer dans le livre. Pages très colorées, mais toujours dans les tons roses et pastels. 
-        </p>
-</div>
+        <div class="art__rectangle-droit">
+            
+                <p class="texte">Pour les artistes le phénomène de « l’art block » n’est pas à prendre à la légère. En en faisant le sujet principal de son second roman graphique La Jeune Femme et la Mer, Catherine Meurisse tente de déculpabiliser les artistes de cette période de flou. 
+                </p>
+                <h2 class="texte__titre">LE PLAISIR DES YEUX AVANT TOUT
+                </h2>
+
+                <p class="texte">Autrice de 42 ans, Catherine Meurisse publie La Jeune Femme et la Mer le 29 octobre 2021. Dans celui-ci, elle raconte son aventure en quête d’inspiration dans une résidence à Kyoto, au Japon. A travers ses illustrations, elle se met elle-même en scène accompagnée de jolis mots et métaphores qui nous explique le phénomène qui touche beaucoup d’artistes : le manque d’inspiration. Une BD aussi attirante dans son histoire que dans ses dessins. On remarque la combinaison d’aquarelles et crayons de couleurs. L’illustration de magnifiques paysages du Japon tels que les fleurs, la mer, les champs et les plaines ressort différente à chaque double page. L’illustratrice atteint une parfaite combinaison artistique qui donne envie de rentrer dans le livre. Pages très colorées, mais toujours dans les tons roses et pastels. 
+                </p>
+        </div>
 
 
-<section x-data="{open:false}">
-    <button @click="open = !open"> 
-        <img src="../assets/icones/book-open1.svg">
-        <p>Lire un extrait du livre</p>
-    </button>
+        <section
+        class="lireextrait"
+         x-data="{open:false}">
+            <button
+            class="btn btn--column"
+            @click="open = !open"> 
+                <img src="../assets/icones/book-open1.svg">
+                <p class="extrait">Lire un extrait du livre</p>
+            </button>
 
-    <p x-show="open">“ -	Ça alors c’est cocasse, cette rencontre fortuite entre deux peintres, a l’autre bout du monde !
-        -	« Bout du monde », parlez pour vous.
-        -	Je peux voir votre carnet ? 
-        -	Il est vide. Enfin, il ne contient pas de dessins, seulement des poèmes de ma composition. Je cherche à peindre une femme. L’expression d’une femme. J’avoue que, pour le moment c’est la panne sèche. La peinture échoue. Seuls les haïkus fonctionnent. En dix-sept syllabes je traduis mieux l’évanescence des choses. (…)
-        -	C’est quoi l’évanescence des choses ?
-        -	C’est ce qui est hors du monde. La poésie à laquelle j’aspire n’est pas celle qui exhorte les passions terrestres. Plutôt celle qui m’affranchit des préoccupations triviales et me donne l’illusion de quitter, ne serait-ce qu’un instant ce monde de poussière. Vous aimez la poésie ? 
-        -	Oui mais j’en lis peu 
-        -	Souvent la caractéristique de la poésie est de ne pouvoir jamais sortir du monde. En particulier dans la poésie de chez vous, occidentale. Votre poésie se fonde sur l’humain et dépasse rarement ce stade.
-        -	Comment ça « ne jamais sortir du monde ? » Et du Bellay alors ? « Heureux qui, comme Ulysse a fait un beau voyage … »
-        -	Haha ! je ne parle pas de ce monde-là. Le poète occidental a trop les pieds sur terre 
-        « Je cueille des chrysanthèmes au pied de la haie de l’est, et sereinement je regarde les montagnes du sud. ». Ce paysage suffit à effacer le monde. Il n’y a aucune voisine derrière la haie et aucun ami qui se recueille dans les montagnes, vous comprenez ? Ainsi n’avez-vous pas l’impression de vous élever au-dessus de la mêlée, de vous laver de toute velléité matérielle ? 
-        -	Vous êtes peintre ou poète ?
-        -	Avec ma boite de peinture, j’avance lentement sur le sentier de la montagne. En respirant dans la nature le monde des poètes, je me promène, ne serait-ce qu’un instant, dans l’univers impassible. Voilà l’ivresse. ” <br>
-        Extrait de la BD 
-La Jeune Femme et la Mer - Catherine Meurisse, 2021
-        </p>
+            <p class="texte" x-show="open">“ -	Ça alors c’est cocasse, cette rencontre fortuite entre deux peintres, a l’autre bout du monde !
+                -	« Bout du monde », parlez pour vous.
+                -	Je peux voir votre carnet ? 
+                -	Il est vide. Enfin, il ne contient pas de dessins, seulement des poèmes de ma composition. Je cherche à peindre une femme. L’expression d’une femme. J’avoue que, pour le moment c’est la panne sèche. La peinture échoue. Seuls les haïkus fonctionnent. En dix-sept syllabes je traduis mieux l’évanescence des choses. (…)
+                -	C’est quoi l’évanescence des choses ?
+                -	C’est ce qui est hors du monde. La poésie à laquelle j’aspire n’est pas celle qui exhorte les passions terrestres. Plutôt celle qui m’affranchit des préoccupations triviales et me donne l’illusion de quitter, ne serait-ce qu’un instant ce monde de poussière. Vous aimez la poésie ? 
+                -	Oui mais j’en lis peu 
+                -	Souvent la caractéristique de la poésie est de ne pouvoir jamais sortir du monde. En particulier dans la poésie de chez vous, occidentale. Votre poésie se fonde sur l’humain et dépasse rarement ce stade.
+                -	Comment ça « ne jamais sortir du monde ? » Et du Bellay alors ? « Heureux qui, comme Ulysse a fait un beau voyage … »
+                -	Haha ! je ne parle pas de ce monde-là. Le poète occidental a trop les pieds sur terre 
+                « Je cueille des chrysanthèmes au pied de la haie de l’est, et sereinement je regarde les montagnes du sud. ». Ce paysage suffit à effacer le monde. Il n’y a aucune voisine derrière la haie et aucun ami qui se recueille dans les montagnes, vous comprenez ? Ainsi n’avez-vous pas l’impression de vous élever au-dessus de la mêlée, de vous laver de toute velléité matérielle ? 
+                -	Vous êtes peintre ou poète ?
+                -	Avec ma boite de peinture, j’avance lentement sur le sentier de la montagne. En respirant dans la nature le monde des poètes, je me promène, ne serait-ce qu’un instant, dans l’univers impassible. Voilà l’ivresse. ” <br>
+                Extrait de la BD 
+        La Jeune Femme et la Mer - Catherine Meurisse, 2021
+                </p>
+        </section>
+
+        <section class="suite">
+        <img class="art__image-cat2" src="../assets/img/jeunefemmeplanche.webp">
+
+        <div class="art__rectanglegaucheb">
+            
+            <h2 class="texte__titre">UN JOLI REMÈDE POUR SE RETROUVER À TRAVERS LES PAGES </h2>
+        
+            <p class="texte">Le sujet qu’elle amène est loin d’être léger, quand on est artiste. Si de l’extérieur il ne semble être qu’une simple histoire de voyage, il fait du bien au cœur de tout créateur de contenu. De part la rencontre du vieux et du raton laveur, elle reconstruit le cheminement d’une réflexion artistique. Le message qu’elle fait passer : Ce n’est pas grave ! Parfois, pour créer on a besoin de se retrouver seul, se ressourcer et absorber ce dont on a besoin pour retrouver l’inspiration. Peut-être cet ouvrage a-t-il finalement permis à certains de souffler ? </p>
+
+
+            <h2 class="texte__titre">VOYAGER EN RESTANT DANS SON FAUTEUIL</h2>
+            <p class="texte">L’ensemble du livre basé sur la légende de la jeune femme sur la rive fait découvrir par la même occasion les campagnes de Kyoto et ses monuments. Sur une note plus instructive, elle évoque le choc des cultures entre l’Europe et l’Asie. Notamment dans la littérature, les peintures, les légendes et les façons de vivre ensemble.
+            </p>
+        </div>
 </section>
-
-    </main>
+            </main>
 
     <footer class="footer">
         <div class="footer__base">
