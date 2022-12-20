@@ -1,4 +1,20 @@
 .projet__titre {
-    font-size: 17px;
+    font-size: 25px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 3px;
+    text-decoration: underline;
+}
+
+.projet__item {
+    
+    list-style-type: none;
+    text-align: center;
+    padding-top: 20%;
+    line-height: 15px;
+}
+
+.liste__projets {
+    display: grid;
+    justify-content: center;
+    padding: 10%;
 }
