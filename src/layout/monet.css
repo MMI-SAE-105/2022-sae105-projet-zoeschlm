@@ -1,0 +1,35 @@
+.art__image-claude {
+    max-width: 100%;
+    width:146px;
+    height: 542px;
+    margin-top: 20%;
+    right:0;
+    position:relative;
+    margin-left: 64%;
+
+}
+
+.frise__img {
+    width:282px;
+    height: 212px;
+    border-radius: 1cm;
+}
+
+.frise__bouton {
+    background: #DC8DB3;
+    border:none;
+    padding: 10%;
+    border-radius: 50cm;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;  
+}
+
+.frise__figure {
+    background-color: #DC8DB3;
+    border-radius: 1cm;
+    padding: 7%;
+    display: block;
+    align-items: center;
+    transition-duration: 500ms;
+}

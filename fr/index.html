@@ -29,9 +29,19 @@
                 aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" :class="menuIsOpen && 'active'">
                     <img class="header__icon" src="../assets/icones/menu1.svg" alt="Menu">
                 </button>
+
+            
+
+
                 <nav class="menu"
                  id="mainNav" x-show="menuIsOpen"
                  x-transition.duration.800ms>
+
+                 
+
+                 
+
+
                     <ul style="list-style-type:none;" class="menu__list">
                         <li class="menu__item"> 
                             <a class="menu__link" href="mac-miller.html"> Come Back to Earth, le morceau emblématique de Mac Miller</a></li>
@@ -45,14 +55,14 @@
                             <a class="menu__link" href="technologie.html"> La technologie n'est elle pas finalement nocive aux pratiques artistiques</a></li>
                         <li class="menu__item"> 
                             <a class="menu__link" href="reconnaissance.html">Une meilleure reconnaissance des créateurs de contenu artistique</a></li>
-                        <li class="menu__item"> 
-                            <a class="menu__link-2" href="contact.html"> Contact</a></li>
-                        <li class="menu__itam"> 
-                            <a class="menu__link-2" href="a-propos.html"> À propos</a></li>
-                        <li class="menu__item"> 
-                            <a class="menu__link-2" href="autres-projets.html"> Autres projets</a></li>
-                        <li class="menu__item"> 
-                            <a class="menu__link-2" href="glossaire.html"> Glossaire</a></li>
+                        <li class="menu__item2"> 
+                            <a class="menu__link2" href="contact.html"> Contact</a></li>
+                        <li class="menu__item2"> 
+                            <a class="menu__link2" href="a-propos.html"> À propos</a></li>
+                        <li class="menu__item2"> 
+                            <a class="menu__link2" href="autres-projets.html"> Autres projets</a></li>
+                        <li class="menu__item2"> 
+                            <a class="menu__link2" href="glossaire.html"> Glossaire</a></li>
                     </ul>
                 </nav>
         </div>
@@ -78,12 +88,14 @@
         <p class="intro__texte2">Qu’en sera t-il dans quelques années de la situation de chaque créateur dans la société? Posez vous les bonnes questions, appréciez et évoluez.
         </p>
             
-        <article>
+        <article class="bloc">
             <div class="article">
-                <a class="article__titre" href="mac-miller.html">  Mac Miller &<br>
-                    Come back to Earth</a>
-                <img class="article__image" src="../assets/img/mac_accueil.webp" alt="Mac Miller">
-                </a>
+                <div class="article__bloc1">
+                    <a class="article__titre" href="mac-miller.html">  Mac Miller &<br>
+                        Come back to Earth</a>
+                    <img class="article__image" src="../assets/img/mac_accueil.webp" alt="Mac Miller">
+                    </a>
+                </div>
                 <p class="article__presentation">Simple rappeur connu pour ses morceaux colorés
                      qui finalement, cachent un train de vie bien
                       difficile.</p>
@@ -97,12 +109,15 @@
 
         
         
-        <article>
+        <article class="bloc">
             <div class="article">
-                <a class="article__titre" href="wes_anderson.html" >Wes Anderson &<br>
-                     Le grand hôtel Budapest</a>
-                    <img class="article__image" src="../assets/img/wes_accueil.webp" alt="Wes Anderson">
-                </a>
+                <div class="article__bloc1">
+                    <a class="article__titre"
+                     href="wes_anderson.html" >Wes Anderson &<br>
+                         Le grand hôtel Budapest</a>
+                        <img class="article__image" src="../assets/img/wes_accueil.webp" alt="Wes Anderson">
+                    </a>
+                </div>
                     <p class="article__presentation">Si rêve et réalité pouvaient se confondre au
                          visionnage d’un écran, c’est vers Wes Anderson
                           que nous dirigerions le regard.</p>
@@ -114,12 +129,15 @@
                 </div>
         </article>
 
-        <article>
+        <article class="bloc">
             <div class="article">
-                <a class="article__titre" href="catherine-meurisse.html">Catherine Meurisse & <br>
-                     La jeune femme et la mer </a>
-                    <img class="article__image" src="../assets/img/catherine_accueil.webp" alt="Catherine Meurisse">
-                </a>
+                <div class="article__bloc1">
+                    <a class="article__titre"
+                     href="catherine-meurisse.html">Catherine Meurisse & <br>
+                         La jeune femme et la mer </a>
+                        <img class="article__image" src="../assets/img/catherine_accueil.webp" alt="Catherine Meurisse">
+                    </a>
+                </div>
                     <p class="article__presentation">Légende, humour, confort et beauté,
                          l’écriture de cette autrice n’apporte qu’un
                           bon moment.</p>
@@ -131,12 +149,15 @@
                 </div>
         </article>
 
-        <article>
+        <article class="bloc">
             <div class="article">
-                <a class="article__titre" href="claude-monet.html">Claude Monet &<br>
-                    l'Orangerie de Paris</a>
-                    <img class="article__image" src="../assets/img/monet_accueil.webp " alt="Claude Monet">
-                </a>
+                <div class="article__bloc1">
+                    <a class="article__titre"
+                     href="claude-monet.html">Claude Monet &<br>
+                        l'Orangerie de Paris</a>
+                        <img class="article__image" src="../assets/img/monet_accueil.webp " alt="Claude Monet">
+                    </a>
+                </div>
                     <p class="article__presentation">L’impressioniste des XIX et XXe siècles et ses
                          toiles continuent de vivre au musée de
                           l’Orangerie de Paris.</p>
@@ -148,29 +169,36 @@
                 </div>
         </article>
 
-        <article>
+        <article class="bloc">
             <div class="article">
-                <a class="article__titre" href="technologie.html">Technologie & art,<br>
-                     toujours ensemble ?</a>
-                    <img class="article__image" src="../assets/img/technologie_accueil.webp" alt="Technologie">
-                </a>
+                <div class="article__bloc1">
+                    <a class="article__titre"
+                     href="technologie.html">Technologie & art,<br>
+                         toujours ensemble ?</a>
+                        <img class="article__image" src="../assets/img/technologie_accueil.webp" alt="Technologie">
+                    </a>
+                </div>
                     <p class="article__presentation">L’évolution des nouvelles technologies laisse
                          place au réel débat sur l’utilité des pratiques
                           artistiques.</p>
             </div>
                 <div class="article__bouton">
-                    <a class="btn" href="technologie.html">Lire l'article
+                    <a class="btn"
+                     href="technologie.html">Lire l'article
                         <img class="btn__fleche" src="../assets/icones/arrow-right1.svg" alt="flèche à droite">
                     </a>
                 </div>
         </article>
 
-        <article>
+        <article class="bloc">
             <div class="article">
-                <a class="article__titre" href="reconnaissance.html">Reconnaissance <br>
-                     des artistes</a>
-                    <img class="article__image" src="../assets/img/reconnaissanceaccueil.webp" alt="artiste">
-                </a>
+                <div class="article__bloc1">
+                    <a class="article__titre"
+                     href="reconnaissance.html">Reconnaissance <br>
+                         des artistes</a>
+                        <img class="article__image" src="../assets/img/reconnaissanceaccueil.webp" alt="artiste">
+                    </a>
+                </div>
                     <p class="article__presentation">Ils méritent qu’on parle d’eux comme
                         nous parlons de leurs
                          productions.</p>

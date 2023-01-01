@@ -85,45 +85,45 @@
                     
                        <button class="frise__bouton"
                        @click="open = 1">1792 Le Louvre</button>
-                       <figure x-show="open == 1" x-transition.scale.origin.top>
+                       <figure class="frise__figure" x-show="open == 1" >
                             <img class="frise__img" src="../assets/img/Louvre.webp" alt="musée du Louvre">
-                            <figcaption class="">Évidemment, notre célèbre musée du Louvre n’est pas si vieux que ça. 1792, à sa date de création il devient déja le bâtiment emnlématique de Paris. Nombreux sont les touristes des quatre coins du monde qui souhaitent voir la célèbre Joconde, par DaVinci  </figcaption>
+                            <figcaption class="texte">Évidemment, notre célèbre musée du Louvre n’est pas si vieux que ça. 1792, à sa date de création il devient déja le bâtiment emnlématique de Paris. Nombreux sont les touristes des quatre coins du monde qui souhaitent voir la célèbre Joconde, par DaVinci  </figcaption>
                         </figure>
                 </div>
 
                 <div>
                     
-                       <button @click="open = 2">1840 musée Goya</button>
-                       <figure x-show="open == 2" x-transition.scale.origin.top>
-                            <img src="../assets/img/Goya.webp" alt="musée Goya">
-                            <figcaption>C’est en 1840 que le musée Goya, à Castres ouvre ses portes. À l’interieur de celui, les peintures et oeuves d’art espagnoles se mèlent à l’achitecture française de la région d’Occitanie.</figcaption>
+                       <button class="frise__bouton" @click="open = 2">1840 musée Goya</button>
+                       <figure class="frise__figure" x-show="open == 2" >
+                            <img class="frise__img" src="../assets/img/Goya.webp" alt="musée Goya">
+                            <figcaption class="texte">C’est en 1840 que le musée Goya, à Castres ouvre ses portes. À l’interieur de celui, les peintures et oeuves d’art espagnoles se mèlent à l’achitecture française de la région d’Occitanie.</figcaption>
                         </figure>
                 </div>
 
                 <div>
                     
-                       <button @click="open = 3">1892 Palais des Beaux Arts</button>
-                       <figure x-show="open == 3" x-transition.scale.origin.top>
-                            <img src="../assets/img/lille.webp" alt="musée des Beaux Arts Lille">
-                            <figcaption>1892, au nord de la France, Lille ouvre les portes du palais des beaux arts. Sur les 12 000 m2 d’exposition, Eugène Delacroix, Théodore Géricault et bien d’autres prêtent leurs toiles.
+                       <button class="frise__bouton" @click="open = 3">1892 Palais des Beaux Arts</button>
+                       <figure class="frise__figure" x-show="open == 3" >
+                            <img class="frise__img" src="../assets/img/lille.webp" alt="musée des Beaux Arts Lille">
+                            <figcaption class="texte">1892, au nord de la France, Lille ouvre les portes du palais des beaux arts. Sur les 12 000 m2 d’exposition, Eugène Delacroix, Théodore Géricault et bien d’autres prêtent leurs toiles.
                             </figcaption>
                         </figure>
                 </div>
 
                 <div>
-                       <button @click="open = 4">2001 Musée de la Piscine</button>
-                       <figure x-show="open == 4" x-transition.scale.origin.top>
-                            <img src="../assets/img/piscine.webp" alt="musée de la Piscine">
-                            <figcaption>La forme atypique du musée au dessus de l’eau fait tout le patrimoine culturel de Roubaix. Présentant une majorité de sculptures mais aussi des créations décoratives. Ancienne piscine municipale de la ville, elle est transformée en musée en 2001.</figcaption>
+                       <button class="frise__bouton" @click="open = 4">2001 Musée de la Piscine</button>
+                       <figure class="frise__figure" x-show="open == 4" >
+                            <img class="frise__img" src="../assets/img/piscine.webp" alt="musée de la Piscine">
+                            <figcaption class="texte">La forme atypique du musée au dessus de l’eau fait tout le patrimoine culturel de Roubaix. Présentant une majorité de sculptures mais aussi des créations décoratives. Ancienne piscine municipale de la ville, elle est transformée en musée en 2001.</figcaption>
                         </figure>
                 </div>
 
                 <div>
                     
-                       <button @click="open = 5">2006 Centre Pompidou</button>
-                       <figure x-show="open == 5" x-transition.scale.origin.top>
-                            <img src="../assets/img/pompidou.webp" alt="centre Pompidou">
-                            <figcaption>Musée national d’art à Paris, le Centre Pompidou présente des oeuvres d’art plus contemporaines que le musée du Louvre. Au même titre que le musée de l’Orangerie, il présente lui aussi des expositions temporaires.</figcaption>
+                       <button class="frise__bouton" @click="open = 5">2006 Centre Pompidou</button>
+                       <figure class="frise__figure" x-show="open == 5">
+                            <img class="frise__img" src="../assets/img/pompidou.webp" alt="centre Pompidou">
+                            <figcaption class="texte">Musée national d’art à Paris, le Centre Pompidou présente des oeuvres d’art plus contemporaines que le musée du Louvre. Au même titre que le musée de l’Orangerie, il présente lui aussi des expositions temporaires.</figcaption>
                         </figure>
                 </div>
             </div>
@@ -133,8 +133,8 @@
 
 
 
-        <h2>Expositions et culture des arts</h2>
-        <p>
+        <h2 class="texte__titre">Expositions et culture des arts</h2>
+        <p class="texte">
             Claude Monet prête ses Nymphéas au musée de l’Orangerie et du 5 octobre 2022 au 23 février 2023, il est aussi possible de voir d’autres œuvres. Certaines d’artistes ayant été inspirés par le “mouvement de Claude Monet”.
             Cette année la fondation Louis Vuitton à Paris propose une exposition des peintures de Joan Mitchell, expressionniste ayant fortement étudié les ouvres de Monet, son référent. Plusieurs expositions se tiennent pour l’année 2023. Toutes aussi intéressantes les unes que les autres, on en trouve partout. Vous retrouverez une bonne sélection dans le magazine Beaux-Arts, édition septembre 2022. On en note d’ailleurs quelques-unes qui valent le coup d’œil. 
         </p>

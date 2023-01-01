@@ -27,9 +27,26 @@
 
 .art__image-mac {
     max-width: 100%;
-    width:138px;
+    width:148px;
     height: 864px;
     margin-top: 35%;
     left:0;
     position:relative;
+}
+
+.link__ytb {
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    padding:4%
+}
+
+
+.youtube {
+    display: flex;
+    justify-content: center;
+}
+
+.page_articleM {
+ margin-top: auto;
 }

@@ -53,10 +53,16 @@
 
 }
 
-.article{
-    margin-top: 30%;
-    padding: 50px;
+
+
+.article__bloc1 {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding:10%;
+
 }
+
 
 .article__titre {
     font-family: 'Lato', sans-serif;
@@ -64,9 +70,12 @@
     text-transform: uppercase;
     position:absolute; 
     text-align:center;
+    justify-content: center;
     color: black;
     text-decoration: none;
-    padding: 20px;
+    padding: 40px;
+    font-weight: bold;
+    
     
     
 }
@@ -84,6 +93,8 @@
     position:absolute;
     font-size: 13px;
     text-align: center;
+    padding:5%;
+    
 
 
 }
