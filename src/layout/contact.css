@@ -43,3 +43,7 @@
     padding: 50px;;
 }
 
+.envoyer{
+    display: flex;
+    justify-content: center;
+}

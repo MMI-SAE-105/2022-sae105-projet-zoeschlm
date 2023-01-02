@@ -1,4 +1,10 @@
 .art__image-reconnaissance {
-    width:139px;
-    height: 980px;
+    width:239px;
+    height: 1120px;
+    padding-top:5%;
+}
+
+.reconnaissance {
+    display: flex;
+    padding-top: 20%;
 }

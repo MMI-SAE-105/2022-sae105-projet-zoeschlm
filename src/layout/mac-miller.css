@@ -29,9 +29,9 @@
     max-width: 100%;
     width:148px;
     height: 864px;
-    margin-top: 35%;
     left:0;
     position:relative;
+    padding-top: 5%;
 }
 
 .link__ytb {
@@ -47,6 +47,10 @@
     justify-content: center;
 }
 
-.page_articleM {
- margin-top: auto;
+
+
+.macmiller{
+    display: flex;
+    padding-top: 20%;
+
 }
