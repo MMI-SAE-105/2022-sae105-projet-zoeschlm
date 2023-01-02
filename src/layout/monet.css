@@ -26,10 +26,19 @@
 }
 
 .frise__figure {
+    position: absolute;
     background-color: #DC8DB3;
     border-radius: 1cm;
     padding: 7%;
     display: block;
     align-items: center;
     transition-duration: 500ms;
+}
+
+.frise__ligne {
+    display:block;
+    justify-content: center;
+    margin-top: 30%;
+    position: relative;
+    margin-left: 50%;
 }
