@@ -1,11 +1,16 @@
 .art__image-cat1 {
     max-width: 100%;
-    width:138px;
-    height: 764px;
-    margin-top: 65%;
+    width:148px;
+    height: 814px;
     left:0;
     position:relative;
+    padding-top: 5%;
 } 
+
+.cat1 {
+    display: flex;
+    padding-top: 20%;
+}
 
 .lireextrait {
     display: flex;
@@ -18,23 +23,20 @@
     max-width: 100%;
     width:220px;
     height: 875px;
-    margin-top: 18%;
     margin-left: 44%;
     position:relative;
     z-index: -1;
+    padding-top: 5%;
 }
 
-.art__rectanglegaucheb {
-    background: #DC8DB3;
-    border-radius: 0.3cm;
-    width:290px;
-    margin-top: 0%;
-    left: 0;
-    padding-bottom: 8%;
-    padding-top: 8%;
-    position:absolute;
-    top: 88%;
-    margin-top: 280%;
-    
-     
+.cat2{
+    display: flex;
+    padding-top: 20%;
 }
+
+.signature {
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 27px;
+    padding-left: 50%;
+}
+

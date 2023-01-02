@@ -10,13 +10,18 @@
 
 .art__image-wes {
     max-width: 100%;
-    width:238px;
-    height: 1064px;
-    margin-top: 62%;
+    width:248px;
+    height: 1094px;
     margin-left: 40%;
     position:relative;
     z-index: -1;
+    padding-top: 5%;
     
+}
+
+.wes{
+    display: flex;
+    padding-top: 20%;
 }
 
 .galerie1 {
