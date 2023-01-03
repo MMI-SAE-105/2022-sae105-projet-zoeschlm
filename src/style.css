@@ -1,23 +1,31 @@
+/*components*/
 @import url('components/menu.css');
 @import url('components/article.css');
+@import url('components/header.css');
+@import url('components/footer.css');
+@import url('components/bouton.css');
+
+
+
 /*variable*/
 @import url('utils/variables.css');
+
 
 /*fonts*/
 @import url('');
 
+
 /*base*/
 @import url('base/main.css');
+
 
 /*fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Arya:wght@400;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&family=Reenie+Beanie&family=Ubuntu+Condensed&display=swap');
 
-@import url('components/header.css');
 
+/*layout*/
 @import url('layout/index.css');
 @import url('layout/mac-miller.css');
-@import url('components/footer.css');
-@import url('components/bouton.css');
 @import url('layout/wes-anderson.css');
 @import url('layout/catherine.css');
 @import url('layout/contact.css');
