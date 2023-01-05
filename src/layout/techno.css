@@ -21,3 +21,10 @@ padding-top: 5%;
     display:flex;
     padding-top: 20%;
 }
+
+.video {
+    max-width: 100%;
+    width: 350px;
+    padding: 10%;
+    border-radius:2cm ;
+}

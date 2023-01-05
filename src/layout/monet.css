@@ -1,11 +1,11 @@
 .art__image-claude {
     max-width: 100%;
     width:146px;
-    height: 542px;
-    margin-top: 20%;
+    height: 612px;
     right:0;
     position:relative;
     margin-left: 64%;
+    padding-top: 5%;
 
 }
 
@@ -41,4 +41,9 @@
     margin-top: 30%;
     position: relative;
     margin-left: 50%;
+}
+
+.orangerie1{
+    display: flex;
+    padding-top: 20%;
 }

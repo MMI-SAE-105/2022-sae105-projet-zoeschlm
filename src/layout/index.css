@@ -59,7 +59,9 @@
     display:flex;
     align-items: center;
     justify-content: center;
-    padding:10%;
+    padding-left:10%;
+    padding-right: 10%;
+    padding-top: 20%;
 
 }
 
@@ -90,10 +92,10 @@
 .article__presentation {
 
     font-family: 'Lato', sans-serif;
-    position:absolute;
     font-size: 13px;
     text-align: center;
-    padding:5%;
+    padding-left: 7%;
+    padding-right: 7%;
     
 
 
@@ -102,9 +104,13 @@
 
 
 
+
+
 .article__bouton {
-    display: flex;
+    padding-left: 30%;
+    padding-right: 30%;
    justify-content: center;
+
 }
 
 .btn {

@@ -21,13 +21,17 @@
 .definition {
     display:flex;
     padding:5%;
-    justify-content: space-between;
 
 }
 
 .glossaire__def {
     font-family: 'Lato', sans-serif;
     font-size: 15px;
-    margin-left: 15%;
+    padding-left:28% ;
+    padding-right: 3%;
+    position: absolute;
+}
 
+.except {
+    padding-top: 15%;
 }
