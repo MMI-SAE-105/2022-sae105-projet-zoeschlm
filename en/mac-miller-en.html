@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{menuIsOpen:false}" :class="menuIsOpen && 'noScroll'">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mac Miller</title>
+    <link rel="stylesheet" href="/src/style.css">
+    <script defer src="https://unpkg.com/alpinejs"></script>
+
+</head>
+<body class="body">
+
+
+    <header class="header">
+        <div class="header__start">
+            <a href="index.html">
+                <img class="header__logo" src="../assets/icones/LogoR.svg" alt="Logo Reminiscence">
+            </a>
+        </div>
+
+        <div class="header__end">
+                <button class="header__menu-btn menu-btn">
+                    <img class="header__icon" src="../assets/icones/united-kingdom1.svg" alt="Langue anglais">
+                    <span></span>
+                </button>
+
+                <button class="header__menu-btn menu-btn" 
+                aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" :class="menuIsOpen && 'active'">
+                    <img class="header__icon" src="../assets/icones/menu1.svg" alt="Menu">
+                </button>
+                <nav class="menu"
+                 id="mainNav" x-show="menuIsOpen"
+                 x-transition.duration.800ms>
+
+                 
+
+                 
+                    <a href="index.html">
+                        <img class="menu__logo" src="../assets/icones/LogoR.svg ">
+                    </a>
+
+                   
+
+                    <ul style="list-style-type:none;" class="menu__list">
+                        <li class="menu__item"> 
+                            <a class="menu__link" href="mac-miller.html"> Come Back to Earth, le morceau emblématique de Mac Miller</a></li>
+                        <li class="menu__item"> 
+                            <a class="menu__link" href="wes-anderson.html"> Wes Anderson, peintre contemporain du cinéma</a></li>
+                        <li class="menu__item"> 
+                            <a class="menu__link" href="catherine-meurisse.html"> La jeune Femme et la Mer ou la ressource d'inspiration</a></li>
+                        <li class="menu__item"> 
+                            <a class="menu__link" href="claude-monet.html"> Voyage entre les pièces de l'Orangerie de Paris</a></li>
+                        <li class="menu__item"> 
+                            <a class="menu__link" href="technologie.html"> La technologie n'est elle pas finalement nocive aux pratiques artistiques</a></li>
+                        <li class="menu__item"> 
+                            <a class="menu__link" href="reconnaissance.html">Une meilleure reconnaissance des créateurs de contenu artistique</a></li>
+                        <li class="menu__item2"> 
+                            <a class="menu__link2" href="contact.html"> Contact</a></li>
+                        <li class="menu__item2"> 
+                            <a class="menu__link2" href="a-propos.html"> À propos</a></li>
+                        <li class="menu__item2"> 
+                            <a class="menu__link2" href="autres-projets.html"> Autres projets</a></li>
+                        <li class="menu__item2"> 
+                            <a class="menu__link2" href="glossaire.html"> Glossaire</a></li>
+                    </ul>
+                </nav>
+        </div>
+    </header>
+    <main>
+        
+        <h1 class="titre-article">Come Back To Earth, le morceau emblématique de MAC MILLER</h1>
+
+       
+            <section class="youtube">
+                <button class="btn btn--column">
+                    <a class="link__ytb" href="https://www.youtube.com/watch?v=W4ocPPhtglU">Écouter Come Back to Earth sur YouTube</a>
+                    <img src="../assets/icones/music1.svg" alt="musique">
+                </button>
+            </section>
+
+        <blockquote class="citation">“ In my own way, this feel like livin'<br>
+            Some alternate reality<br>
+           And I was drownin', but now I'm swimmin'”
+           
+        </blockquote>
+
+        <section class="macmiller" >
+            <img class="art__image-mac" src="../assets/img/mac-miller-left-behind-800x8001.webp" alt="Photo Mac Miller">
+                <div class="art__rectangle-droit">
+                    <p class="texte">Malcolm James McCormick plus communément Mac Miller continue de résonner dans les oreilles des fans même 4 ans après sa disparition, le 7 septembre 2018.</p>
+                    <h2 class="texte__titre">SWIMMING, LA SUITE DE L’HISTOIRE DU RAPPEUR</h2>
+                    <p class="texte">Come Back To Earth ouvre le bal de son sixième et dernier album Swimming. Vous pouvez trouver un résumé de la discographie de l’artiste dans la vidéo du Youtubeur SEB: <a class="texte__link" href="https://www.youtube.com/watch?v=88KAks_f5eU">LA TRISTE HISTOIRE DE MAC MILLER.</a> Dans ce morceau, on retrouve la mélancolie tant dans les paroles que dans le rythme de la bande son. Commencer sur une note calme, mais finalement puissante significativement n’est il pas le meilleur moyen pour transporter les auditeurs dans l’univers de l’artiste ?
+            
+                    <em>“I’ll do anything to way out, of my head”,</em> la dernière phrase du morceau. D’une part, il démontre la proximité entre les fans et le rappeur. Ce dernier s’ouvre clairement sur sa santé mentale. Mais, d’autre part, touche beaucoup plus de monde qu’on ne le croit. La tournure et l’impact des mots peuvent évidemment agir différemment sur la façon d'écouter ces paroles.
+                    Le jeune producteur a su toucher le cœur des gens, par sa philosophie. Dès ses premières mixtapes, il est franc concernant sa vie.
+                    </p>
+                </div>
+        </section>
+
+            <div class="citation-bloc">
+            <blockquote class="citation__2">« Il y a de la pression. À beaucoup de reprises dans ma vie j’ai utilisé cette pression pour me maintenir à la hauteur et correspondre à l’image que je me faisais de moi ou à celle que les autres avaient de moi. C’est ce qui crée de la pression. […] Vous devez avoir votre propre réalité et c’est ce qui doit être le moteur de votre vie.”</blockquote>
+
+            <img class="citation__img" src="../assets/img/mac_miller-swimming_a-e15447126052031.webp" alt="Mac Miller Swimming">
+            </div>
+
+            <h2 class="texte__titre">NON SEULEMENT UN PRODUCTEUR MAIS AUSSI UN SAUVEUR</h2>
+                    <p class="texte">Aujourd’hui, c’est 1 personne sur 5 qui est affectée par la dépression. Les jeunes sont plus nombreux qu’on ne le croit et beaucoup trouvent refuge dans la musique. Avec Come Back to Earth et son album, Mac miller parle de sujets sérieux, tout en faisant passer un bon moment aux auditeurs. Entendre des inconnus parler sans filtre de la situation dans laquelle ils vivent devient rassurant. Pour beaucoup, nous avons vu en Mac Miller un ami plus qu’un simple producteur. 
+            </p>
+
+            <h2 class="texte__titre">MAC MILLER EN TANT QUE BRILLANTE PERSONNE</h2>
+            <p class="texte">La créativité du rappeur se reflète dans ses 6 albums et autres mixtapes. K.I.D.S, Circles, GO.OD AM, Faces ou encore The divine féminine, des projets tous aussi intéressants que les autres par leur diversité musicale. Nombreuses sont les personnes qui restent touchées par son histoire. L’ambiance de chaque album est différente mais toujours aussi plaisante, un atout de l’artiste que nous regrettons à chaque écoute.</p> 
+
+               <p class="texte"> Autre artiste extraordinaire dans sa façon de créer, Wes Anderson est capable de plonger le spectateur dans un monde irréel.
+            </p>
+
+         
+            <footer class="footer">
+                <div class="footer__base">
+                <div class="block1_footer">
+                    <a href="index.html">
+                        <img class="block1_footer__logo" src="../assets/icones/logo-fond.svg" alt="Logo Reminiscence">
+                    </a>
+                    <p class="block1_footer__titre">Réminiscence</p>
+                   
+                    </div>
+        
+                <div class="block2_footer">
+                    <p class="block2_footer__texte">Projet réalisé dans le cadre d’un exercice pédagogique au département <a href="http://mmimontbeliard.com/"> MMI de Montbéliard. </a> </p>
+                    <h3 class="block2_footer__titre">Contact</h3>
+                    <p class="block2_footer__contact">
+                        <p class="block2_footer__contact">4 place Tharradin</p>
+                        <p  class="block2_footer__contact">25200 Montbéliard</p>
+                        <p  class="block2_footer__contact">03 81 99 47 34</p> 
+                        <p  class="block2_footer__contact">dut-mmi-montbeliard@univ-fcomte.fr</p>
+                    </p>
+                    
+                    <h3 class="block2_footer__titre">Nous suivre</h3>
+        
+                    <a href="https://www.instagram.com/mmi_montbeliard/?hl=fr"> 
+                            <img  class="block2_footer__icone" src="../assets/icones/instagram1.svg" alt="logo instagram">
+                    </a>
+        
+                    <a href="https://fr.linkedin.com/school/mmimontbeliard/">
+                        <img class="block2_footer__icone" src="../assets/icones/linkedin1.svg" alt="Logo LinkedIn">
+                    </a>
+        
+                    <a href="http://mmimontbeliard.com/">
+                        <img class="block2_footer__icone" src="../assets/icones/MMI.svg" alt="logo MMI">
+                    </a>
+                </div>
+        <div class="footer_end">
+                <a class="footer_end__link" href="contact.html">Contact</a> <a class="footer_end__link" href="a-propos.html">À propos</a>
+                <p class="footer_end__nom">Zoé SCHOELLHAMMER MMI1 C2</p>
+        </div>
+                </div>
+            </footer>
+</body>
+</html>

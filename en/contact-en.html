@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>À propos</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="/src/style.css">
     <script defer src="https://unpkg.com/alpinejs"></script>
 
@@ -21,10 +21,8 @@
 
         <div class="header__end">
                 <button class="header__menu-btn menu-btn">
-                    <a href="../en/a-propos-en.html">
                     <img class="header__icon" src="../assets/icones/united-kingdom1.svg" alt="Langue anglais">
                     <span></span>
-                    </a>
                 </button>
 
                 <button class="header__menu-btn menu-btn" 
@@ -69,24 +67,61 @@
                 </nav>
         </div>
     </header>
-        <main>
-            <h1 class="titre-article">À propos</h1>
 
-            <p class="citation">Projet notes pour plus tard</p>
+    
+<h1 class="titre-article">Contact</h1>
+    <div class="liste-contact">
+        <ul>
+            <li class="contact__item"> <a href="https://www.google.com/search?q=4+place+Tharradin%2C+25200+Montb%C3%A9liard&rlz=1C1CHBD_frFR1023FR1023&oq=4+place+Tharradin%2C+25200+Montb%C3%A9liard&aqs=chrome..69i57.298j0j7&sourceid=chrome&ie=UTF-8">
+                    <img class= "contact__icone" src="../assets/icones/home1.svg" alt="maison"></a> 
+                    <p class="contact__point"> 4 place Tharradin, 25200 Montbéliard</p>
+            </li>
 
-                
-                        <div class="rectangle">
-                            <p class="texte">Ici, au département MMI à l’IUT de Belfort-Montbéliard, le projet Notes pour plus tard nous a été donné début septembre. L’objectif était donc concrètement de créer un site web pour notre nous futur. Nous n’avions que quelques contraintes concernant les sujets des articles. Libre à nous ensuite de l’interprêter comme nous le souhaitions.</p>
+            <li class="contact__item">
+                <a href="https://www.google.com/search?q=03+81+99+47+34&rlz=1C1CHBD_frFR1023FR1023&ei=AAJ1Y9jGG-ypkdUPkv6usAo&ved=0ahUKEwjYxq2ugrP7AhXsVKQEHRK_C6YQ4dUDCA8&uact=5&oq=03+81+99+47+34&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQA0oECEEYAEoECEYYAFAAWABg8gFoAHABeACAAQCIAQCSAQCYAQCgAQHAAQE&sclient=gws-wiz-serp#">
+                    <img class="contact__icone" src="../assets/icones/phone1.svg" alt="téléphone"></a> 
+                    <p class="contact__point"> 03 81 99 47 34 </p>
+            </li>
 
-                               <p class="texte"> Réminiscence parle concrètement de mes centres d’intérêts à l’heure actuelle en 2022. </p>
-                               <p class="texte"> J’ai vu le sujet “Notes pour plus tard” comme un outil me permettant de faire une rétrospective de mes goûts depuis quelques années. Les éléments choisis sont tous importants personnellement, de la musique au livre évoqués.</p>
-                               <p class="texte"> En tant qu’étudiante en première année à Montbéliard au département MMI, ces articles reflètent une partie de moi dans cette formation. Touchant à plusieurs pratiques artistiques, j’ai toujours eu l’impression que leurs auteurs n’obtenaient pas grande reconnaissance.</p>
-                            
-                               <p class="texte"> J’ai choisi ici de mettre l’accent sur le travail derrière chaque oeuvre, chaque projet. En présentant ces éléments, il me permet peut être d’en faire connaître certains.</p>
-                            
-                        </div>
-                    
-        </main>
+            <li class="contact__item">
+                <a href="http://mmimontbeliard.com/contact">
+                    <img class="contact__icone" src="../assets/icones/mail1.svg" alt="mail"></a> 
+                    <p class="contact__point"> dut-mmi-montbeliard@univ-fcomte.fr</p>
+            </li>
+        </ul>
+    </div>
+
+    
+        <h2 class="titre-article">Restez toujours informés</h2>
+
+
+        <form class="formulaire" action="#" method="get">
+            <div class="formulaire__case">
+                <label class="sujet" for="prenom">Prénom</label>
+                <input class="case" id="prenom" type="text">
+            </div>
+
+            <div class="formulaire__case">
+                <label class="sujet" for="nom">Nom</label>
+                <input class="case" id="nom" type="text">
+            </div>
+
+            <div class="formulaire__case">
+            <label class="sujet" for="mail">Adresse E-mail</label>
+            <input class="case" id="mail" type="text">
+            </div>
+
+            <div class="formulaire__case">
+                <label class="sujet" for="message">Qu'aimeriez vous voir sur notre site ?</label>
+                <textarea class="case case--texte" id="message"></textarea>
+            </div>
+
+            <section class="envoyer">
+                <button class="btn btn--column" type="submit"> Envoyer le formulaire
+                    <img src="../assets/icones/arrow-right1.svg" alt="flèche droite">
+                </button>
+            </section>
+        </form>
 
         <footer class="footer">
             <div class="footer__base">
@@ -128,5 +163,6 @@
     </div>
             </div>
         </footer>
-    </body>
+    
+</body>
 </html>
