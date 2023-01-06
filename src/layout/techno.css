@@ -25,6 +25,7 @@ padding-top: 5%;
 .video {
     max-width: 100%;
     width: 350px;
-    padding: 10%;
-    border-radius:2cm ;
+    padding:5% ;
+    
+    border-radius:1cm ;
 }
