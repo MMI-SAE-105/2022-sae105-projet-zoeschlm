@@ -9,41 +9,41 @@
 
 }
 
-.frise__img {
-    width:282px;
-    height: 212px;
+.frise__image {
+    width:262px;
+    height: 192px;
     border-radius: 1cm;
+    margin-left: 11%;
+    
+    
 }
 
-.frise__bouton {
-    background: #DC8DB3;
-    border:none;
-    padding: 10%;
-    border-radius: 50cm;
-    font-size: 15px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 800;  
-}
-
-.frise__figure {
-    position: absolute;
+.frise {
     background-color: #DC8DB3;
+    padding: 5%;
+    margin: 5%;
     border-radius: 1cm;
-    padding: 7%;
-    display: block;
-    align-items: center;
-    transition-duration: 500ms;
 }
 
-.frise__ligne {
-    display:block;
-    justify-content: center;
-    margin-top: 30%;
-    position: relative;
-    margin-left: 50%;
+.frise__date {
+    font-size: 25px;
+    font-family: 'Reenie Beanie', cursive;
+    text-align: center;
 }
+
+.frise__texte {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+}
+
+.article__frise {
+    padding-top: 10%;
+}
+
+
 
 .orangerie1{
     display: flex;
     padding-top: 20%;
 }
+

@@ -92,59 +92,64 @@
         </p>  
 
 
-        <section class="frise">
+        
             <h2 class="texte__titre">Musée de l'Orangerie et autres lieux</h2>
-            <img class="frise__ligne" src="../assets/icones/Line13.svg">
-            <div class="accordéon" x-data="{open:1}">
-                <div class="frise__1">
+           
+            <section class="article__frise">
+                <p class="frise__date">1782 Le Louvre</p>
+             
+                <div class="frise">
+                    <img class="frise__image" src="../assets/img/Louvre.webp" alt="musée du Louvre">
+                    <p class="frise__texte">Évidemment, notre célèbre musée du Louvre n’est pas si vieux que ça. 1792, à sa date de création il devient déja le bâtiment emnlématique de Paris. Nombreux sont les touristes des quatre coins du monde qui souhaitent voir la célèbre Joconde, par DaVinci  </p>
+                </div>
+            </section>
+
+            
+
+            <section class="article__frise">
+                <p class="frise__date">1840 Musée Goya</p>
+                
+                <div class="frise">
+                    <img class="frise__image" src="../assets/img/Goya.webp" alt="musée Goya">
+                    <p class="frise__texte">C’est en 1840 que le musée Goya, à Castres ouvre ses portes. À l’interieur de celui, les peintures et oeuves d’art espagnoles se mèlent à l’achitecture française de la région d’Occitanie. </p>
+                </div>
+            </section>
+
+            
+
+            <section class="article__frise">
+                
+                    <p class="frise__date">1892 Musée des Beaux Arts</p>
                     
-                       <button class="frise__bouton"
-                       @click="open = 1">1792 Le Louvre</button>
-                       <figure class="frise__figure" x-show="open == 1" >
-                            <img class="frise__img" src="../assets/img/Louvre.webp" alt="musée du Louvre">
-                            <figcaption class="texte">Évidemment, notre célèbre musée du Louvre n’est pas si vieux que ça. 1792, à sa date de création il devient déja le bâtiment emnlématique de Paris. Nombreux sont les touristes des quatre coins du monde qui souhaitent voir la célèbre Joconde, par DaVinci  </figcaption>
-                        </figure>
+                
+                <div class="frise">
+                    <img class="frise__image" src="../assets/img/lille.webp" alt="musée des beaux arts">
+                    <p class="frise__texte">1892, au nord de la France, Lille ouvre les portes du palais des beaux arts. Sur les 12 000 m2 d’exposition, Eugène Delacroix, Théodore Géricault et bien d’autres prêtent leurs toiles.
+                    </p>
                 </div>
+            </section>
 
-                <div>
-                    
-                       <button class="frise__bouton" @click="open = 2">1840 musée Goya</button>
-                       <figure class="frise__figure" x-show="open == 2" >
-                            <img class="frise__img" src="../assets/img/Goya.webp" alt="musée Goya">
-                            <figcaption class="texte">C’est en 1840 que le musée Goya, à Castres ouvre ses portes. À l’interieur de celui, les peintures et oeuves d’art espagnoles se mèlent à l’achitecture française de la région d’Occitanie.</figcaption>
-                        </figure>
+           
+
+            <section class="article__frise">
+                <p class="frise__date">2001 Musée de la Piscine</p>
+                
+                <div class="frise">
+                    <img class="frise__image" src="../assets/img/piscine.webp" alt="musée de la piscine">
+                    <p class="frise__texte">La forme atypique du musée au dessus de l’eau fait tout le patrimoine culturel de Roubaix. Présentant une majorité de sculptures mais aussi des créations décoratives. Ancienne piscine municipale de la ville, elle est transformée en musée en 2001. </p>
                 </div>
+            </section>
 
-                <div>
-                    
-                       <button class="frise__bouton" @click="open = 3">1892 Palais des Beaux Arts</button>
-                       <figure class="frise__figure" x-show="open == 3" >
-                            <img class="frise__img" src="../assets/img/lille.webp" alt="musée des Beaux Arts Lille">
-                            <figcaption class="texte">1892, au nord de la France, Lille ouvre les portes du palais des beaux arts. Sur les 12 000 m2 d’exposition, Eugène Delacroix, Théodore Géricault et bien d’autres prêtent leurs toiles.
-                            </figcaption>
-                        </figure>
+           
+
+            <section class="article__frise">
+                <p class="frise__date">2006 Centre Pompidou</p>
+                
+                <div class="frise">
+                    <img class="frise__image" src="../assets/img/pompidou.webp" alt="centre pompidou">
+                    <p class="frise__texte">Musée national d’art à Paris, le Centre Pompidou présente des oeuvres d’art plus contemporaines que le musée du Louvre. </p>
                 </div>
-
-                <div>
-                       <button class="frise__bouton" @click="open = 4">2001 Musée de la Piscine</button>
-                       <figure class="frise__figure" x-show="open == 4" >
-                            <img class="frise__img" src="../assets/img/piscine.webp" alt="musée de la Piscine">
-                            <figcaption class="texte">La forme atypique du musée au dessus de l’eau fait tout le patrimoine culturel de Roubaix. Présentant une majorité de sculptures mais aussi des créations décoratives. Ancienne piscine municipale de la ville, elle est transformée en musée en 2001.</figcaption>
-                        </figure>
-                </div>
-
-                <div>
-                    
-                       <button class="frise__bouton" @click="open = 5">2006 Centre Pompidou</button>
-                       <figure class="frise__figure" x-show="open == 5">
-                            <img class="frise__img" src="../assets/img/pompidou.webp" alt="centre Pompidou">
-                            <figcaption class="texte">Musée national d’art à Paris, le Centre Pompidou présente des oeuvres d’art plus contemporaines que le musée du Louvre. Au même titre que le musée de l’Orangerie, il présente lui aussi des expositions temporaires.</figcaption>
-                        </figure>
-                </div>
-            </div>
-
-        </section>
-
+            </section>
 
 
 
