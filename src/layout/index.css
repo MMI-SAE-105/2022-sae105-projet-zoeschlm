@@ -14,12 +14,13 @@
     font-size: 55px;
     align-items: center;
     text-align: center;
+    text-align: center;
     justify-content: center;
     text-transform: uppercase;
     color:#4A3F3F;
     position: absolute;
-    top:47%;
-    left:29%;
+    top:55%;
+    left:28%;
 }
 
 .intro__img {
